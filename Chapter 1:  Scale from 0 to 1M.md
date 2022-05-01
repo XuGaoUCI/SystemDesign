@@ -10,3 +10,9 @@ Highlights:
 - After IP is obtained, HTTP requests are sent to web server.
 - The web server returns HTML pages / JSON for rendering.
 
+Traffic sources:
+- Web application
+server-side (Java / Pythone etc.)
+client-side (HTML / Javascript)
+- Mobile application
+HTTP is a communication protocol between web and mobile server. JSON is popular for API to transfer data.
