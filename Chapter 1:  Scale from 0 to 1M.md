@@ -12,7 +12,7 @@ Highlights:
 
 Traffic sources:
 - Web application
-server-side (Java / Pythone etc.)
+server-side (Java / Python etc.)
 client-side (HTML / Javascript)
 - Mobile application
 HTTP is a communication protocol between web and mobile server. JSON is popular for API to transfer data.
