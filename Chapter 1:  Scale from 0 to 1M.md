@@ -79,4 +79,6 @@ So far, we have a basic design
 - A web server routes write / update/ insert/ delete etc. data-modifying requests to master database.
 
 Next, we consider improve the load / response time.
+## Cache
+![with cache](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_cache.PNG)
 
