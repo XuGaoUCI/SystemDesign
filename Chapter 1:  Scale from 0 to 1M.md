@@ -18,11 +18,13 @@ client-side (HTML / Javascript)
 HTTP is a communication protocol between web and mobile server. JSON is popular for API to transfer data.
 ## Database
 Relational vs non-relational database
+
 Relational database (MySQL, Oracle, PostgreSQL)
 - Store data in rows and tables
 - Perform join 
 - long hisotry and mostly used 
 - ~1K QPS not scalable compared to non-relational DB
+
 Non-relational database
 - stores: key-value, graph, column, document
 
