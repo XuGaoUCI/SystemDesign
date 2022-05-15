@@ -50,3 +50,4 @@ Horizontal Scaling (scale out)
 - Reliability / Available 
 
 ## Load Balancer
+![with lb](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap_simple_lb.PNG)
