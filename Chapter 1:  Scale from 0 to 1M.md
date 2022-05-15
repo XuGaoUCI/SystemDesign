@@ -87,4 +87,6 @@ Highlights
 - Consistency: data and cache in sync.
 - Mitigation failure: single point of failure with one single cache server.
 - Eviction: LRU / LFU / FIFO
+## CDN Content delivery network
+
 
