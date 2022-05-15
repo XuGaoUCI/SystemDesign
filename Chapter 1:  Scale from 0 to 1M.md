@@ -45,5 +45,7 @@ Vertical Scaling (scale up)
 
 Horizontal Scaling (scale out)
 - Large scale application
-- 
+- Add more servers etc.
+- Many users
+- Reliability / Available 
 
