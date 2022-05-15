@@ -17,6 +17,7 @@ client-side (HTML / Javascript)
 - Mobile application
 HTTP is a communication protocol between web and mobile server. JSON is popular for API to transfer data.
 ## Database
+![with database](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_request_db.PNG)
 Relational vs non-relational database
 
 Relational database (MySQL, Oracle, PostgreSQL)
