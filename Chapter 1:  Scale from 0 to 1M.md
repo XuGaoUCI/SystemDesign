@@ -56,4 +56,9 @@ Highlights:
 - Clients connect to public IP of load balancer and can not communicate directly with servers
 - Private IPs used for communication between servers with the same network
 - Failover issue / availability 
+  - Serve 1 down, traffic routed to server 2 while adding a new healthy server
+  - Traffic grows rapidly, add new servers and LB will send requests to new ones
+
+## Database replication
+
 
