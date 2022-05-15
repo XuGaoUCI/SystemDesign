@@ -20,13 +20,13 @@ HTTP is a communication protocol between web and mobile server. JSON is popular 
 ![with database](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_request_db.PNG)
 Relational vs non-relational database
 
-Relational database (MySQL, Oracle, PostgreSQL)
+Relational database (MySQL, Oracle, PostgreSQL etc.)
 - Store data in rows and tables
 - Perform join 
 - long hisotry and mostly used 
 - ~1K QPS not scalable compared to non-relational DB
 
-Non-relational database
+Non-relational database (Cassandra, Hbase, MongoDB, Mamcached, Redis etc.)
 - stores: key-value, graph, column, document
 - Join might not be supported? (I would rather say efficiently join is hard)
 - low latency
