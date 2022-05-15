@@ -70,5 +70,13 @@ Highlights:
   - If master database goes down, one slave will be promoted to new master. A new slave will replace the old one. In practice, promoting is difficult as slave database might not have the most updated data. One needs to backfill data. Multi-master / circular replication might help.
 - Reliability: If one database server is destroyed, data won't be lost b/c it has replications
 
+## Reflection Point
+So far, we have a basic design 
+- Users gets IP address of LB from DNS
+- Users interacts with LB with this IP address
+- Request is routed to server through LB
+- A web server reads data from a slave database
+- A web server routes write / update/ insert/ delete etc. data-modifying requests to master database.
 
+Next, we consider improve the load / response time.
 
