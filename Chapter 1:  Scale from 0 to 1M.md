@@ -62,5 +62,8 @@ Highlights:
 ## Database replication
 ![with db replica](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_db_replica.PNG)
 
+Highlights:
+- 
+
 
 
