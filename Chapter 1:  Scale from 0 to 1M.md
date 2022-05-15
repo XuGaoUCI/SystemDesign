@@ -63,7 +63,12 @@ Highlights:
 ![with db replica](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_db_replica.PNG)
 
 Highlights:
-- 
+- Performance: Write goes to master while read goes to slave. It allows parallel processed queries 
+- Availability: Website remains online if one database server is down
+  - Only one slave database. If it goes down, read request will be directed to master temporarily. A new slave will be replacing the old one. 
+  - Multiple slave databases. One goes down, read request will be routed to other replicas and replacement is done.
+  - If master database goes down, one slave will be promoted to new master. A new slave will replace the old one. In practice, promoting is difficult as slave database might not have the most updated data. One needs to backfill data. Multi-master / circular replication might help.
+- Reliability: If one database server is destroyed, data won't be lost b/c it has replications
 
 
 
