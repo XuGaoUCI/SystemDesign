@@ -51,3 +51,9 @@ Horizontal Scaling (scale out)
 
 ## Load Balancer
 ![with lb](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap_simple_lb.PNG)
+
+Highlights:
+- Clients connect to public IP of load balancer and can not communicate directly with servers
+- Private IPs used for communication between servers with the same network
+- Failover issue / availability 
+
