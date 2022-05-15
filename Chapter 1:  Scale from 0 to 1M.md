@@ -60,5 +60,7 @@ Highlights:
   - Traffic grows rapidly, add new servers and LB will send requests to new ones
 
 ## Database replication
+![with db replica](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_db_replica.PNG)
+
 
 
