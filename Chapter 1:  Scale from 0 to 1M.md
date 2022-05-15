@@ -24,5 +24,5 @@ Relational database (MySQL, Oracle, PostgreSQL)
 - long hisotry and mostly used 
 - ~1K QPS not scalable compared to non-relational DB
 Non-relational database
-- 
+- stores: key-value, graph, column, document
 
