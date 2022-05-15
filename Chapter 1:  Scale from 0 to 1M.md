@@ -81,4 +81,10 @@ So far, we have a basic design
 Next, we consider improve the load / response time.
 ## Cache
 ![with cache](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_cache.PNG)
+Highlights
+- Use case: When read is more frequent than modify. Not ideal for persisting data as it will easily lose data.
+- Expiration: too short will lead to reload data too often; too long will lead to become stale.
+- Consistency: data and cache in sync.
+- Mitigation failure: single point of failure with one single cache server.
+- Eviction: LRU / LFU / FIFO
 
