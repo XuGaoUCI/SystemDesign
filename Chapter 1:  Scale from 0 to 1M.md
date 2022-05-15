@@ -49,3 +49,4 @@ Horizontal Scaling (scale out)
 - Many users
 - Reliability / Available 
 
+## Load Balancer
