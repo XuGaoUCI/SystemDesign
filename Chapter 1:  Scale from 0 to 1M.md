@@ -33,5 +33,17 @@ Non-relational database
 - data is unstructured 
 - massive amout of data 
 - high QPS 10 QPS (MongoDB, Cassandra) 100K - 1M QPS (Redis, Memcached)
+
+Vertical Scaling vs Horizontal Scaling
+
+Vertical Scaling (scale up)
+- Add CPU / RAM etc.
+- Fit for low traffic 
+- Simple
+- Has hard limit 
+- No failover / redundancy / replica
+
+Horizontal Scaling (scale out)
+- Large scale application
 - 
 
