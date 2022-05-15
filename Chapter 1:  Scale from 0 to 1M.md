@@ -28,4 +28,10 @@ Relational database (MySQL, Oracle, PostgreSQL)
 
 Non-relational database
 - stores: key-value, graph, column, document
+- Join might not be supported? (I would rather say efficiently join is hard)
+- low latency
+- data is unstructured 
+- massive amout of data 
+- high QPS 10 QPS (MongoDB, Cassandra) 100K - 1M QPS (Redis, Memcached)
+- 
 
