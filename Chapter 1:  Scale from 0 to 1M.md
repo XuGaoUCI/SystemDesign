@@ -88,5 +88,6 @@ Highlights
 - Mitigation failure: single point of failure with one single cache server.
 - Eviction: LRU / LFU / FIFO
 ## CDN Content delivery network
+A network of geographically dispersed servers to deliver static content such as images, videos, CSS, JavaScripts file etc.
 
 
