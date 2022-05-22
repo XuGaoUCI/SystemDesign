@@ -103,4 +103,10 @@ Details
   - Invalidate CDN object using APIs provided by CDN vendors
   - Set up different version e.g. image.png?v=2 
 ![with cdn](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_cdn.PNG)
-
+## Stateless vs Stateful Architecture
+Stateless architecture is below
+![stateless](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_stateless.PNG)
+Highlights
+- Move session data out of web tier and store them to persistent data store
+- Shared data store could be relational or NoSQL 
+- Autoscaling of web tier is easier after removing the session (state) data
