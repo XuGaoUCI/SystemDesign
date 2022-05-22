@@ -92,5 +92,7 @@ A network of geographically dispersed servers to deliver static content such as 
 
 Highlights
 - a closest CDN server will deliver static content to users
-
+- CDN provides a domain to the URLs of fetching images 
+  - If in CDN cache, return as long as TTL not expired
+  - If not in CDN cache, request from the origin including TTL and keep in cache till TTL
 
