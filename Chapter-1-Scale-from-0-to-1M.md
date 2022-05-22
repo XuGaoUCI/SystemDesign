@@ -110,3 +110,5 @@ Highlights
 - Move session data out of web tier and store them to persistent data store
 - Shared data store could be relational or NoSQL 
 - Autoscaling of web tier is easier after removing the session (state) data
+## Data Centers
+Highlights
