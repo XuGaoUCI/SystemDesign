@@ -91,5 +91,6 @@ Highlights
 A network of geographically dispersed servers to deliver static content such as images, videos, CSS, JavaScripts file etc.
 
 Highlights
-- a cloest CDN server will deliver static content to users
+- a closest CDN server will deliver static content to users
+
 
