@@ -101,7 +101,7 @@ Details
 - CDN fallback -- Under outage, how will app copes with failures 
 - Invalidating files
   - Invalidate CDN object using APIs provided by CDN vendors
-  - Set up different version e.g. image.png?v=2 
+  - Set up different version
 ![with cdn](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_simple_cdn.PNG)
 ## Stateless vs Stateful Architecture
 Stateless architecture is below
