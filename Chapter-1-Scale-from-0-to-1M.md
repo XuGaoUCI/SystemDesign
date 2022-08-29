@@ -111,4 +111,5 @@ Highlights
 - Shared data store could be relational or NoSQL 
 - Autoscaling of web tier is easier after removing the session (state) data
 ## Data Centers
+![with data center](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_data_center.png)
 Highlights
