@@ -113,3 +113,7 @@ Highlights
 ## Data Centers
 ![with data center](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_data_center.png)
 Highlights
+- geoRounted to distribute request to the cloest data center
+- In case of one data center down, will be routed to the other 
+- Data replica across data centers
+- Test and deployment among data centers
