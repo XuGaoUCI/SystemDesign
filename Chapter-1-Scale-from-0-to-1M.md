@@ -117,3 +117,8 @@ Highlights
 - In case of one data center down, will be routed to the other 
 - Data replica across data centers
 - Test and deployment among data centers
+## The Architecture
+![complete architecture](https://github.com/XuGaoUCI/SystemDesign/blob/main/images/chap1_complete_architecture.png)
+Highlights
+- Message queue
+- Monitoring tool
