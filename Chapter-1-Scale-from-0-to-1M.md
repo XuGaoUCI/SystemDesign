@@ -122,3 +122,4 @@ Highlights
 Highlights
 - Message queue
 - Monitoring tool
+- Sharding
